@@ -1,0 +1,97 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage01.master.vb" Inherits="MasterPage01" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <title>Semester Registration V1.0</title>
+    <link href="style/global.css" rel="stylesheet" type="text/css" />
+    <link href="style/reset.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="smvdu">
+    <form id="form1" runat="server">
+    <div class="container_header">
+<div class="wrapper">
+<!-- header section                -->
+
+
+	<div class="header">
+		
+			<div class="ph_logo">
+				<img class="title_logo" src="_img/logoSMVDU.jpg" title="SMVDU Logo" alt="SMVDU" />
+				<div class="title_text">Shri Mata Vaishno Devi University</div>
+				<div class="title_sub">Approved Under Section 2(f) and 12(B) of UGC Act of 1956</div>
+
+			</div>
+		
+		<!--
+
+		<div class="ph_right">
+			
+				
+			
+			<div class="search">
+			
+			</div>
+		</div>-->
+	</div>
+
+
+	
+</div>
+<div class="container_16">
+    <div class="grid_13 alpha" style="border-right: 1px solid #CCC;margin-bottom: 30px;"> 
+      
+      <!--banner front [13 column wide]-->
+    
+      <!--<div class="grid_13 alpha omega">
+    
+
+        <div id="ss_box"></div>
+
+    
+      </div>-->
+     
+
+      <!--left column 
+      <div class="left_column">
+
+    
+
+       </div>-->
+      
+      <!--end of left column --> 
+      
+      <!--main middle content -->
+      <div class="grid_10 alpha omega">
+
+        <div id="middle_column">
+    
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+          <!--<div id="onsmvdu_box"></div>-->
+          
+    
+        </div>
+      </div>
+    </div>
+    
+    <!-- right column 
+    <div class="grid_3 alpha omega">
+      <div class="right" style="">
+      </div>
+
+    </div>-->
+</div>
+</div>
+<div class="footer"> 
+	<span>Copyright &copy; Shri Mata Vaishno Devi University. All Rights Reserved. </span> 
+</div>
+
+      
+    </form>
+</body>
+</html>
