@@ -4,11 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Untitled Page</title>
+    <title>Student Semester Registration</title>
+    <link href="../style/global.css" rel="stylesheet" type="text/css" />
+    <link href="../style/reset.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body id="smvdu">
     <form id="form1" runat="server">
     <div class="container_header">
 <div class="wrapper">
@@ -18,7 +20,7 @@
 	<div class="header">
 		
 			<div class="ph_logo">
-				<img class="title_logo" src="_img/logoSMVDU.jpg" title="SMVDU Logo" alt="SMVDU" />
+				<img class="title_logo" src="../_img/logoSMVDU.jpg" title="SMVDU Logo" alt="SMVDU" />
 				<div class="title_text">Shri Mata Vaishno Devi University</div>
 				<div class="title_sub">Approved Under Section 2(f) and 12(B) of UGC Act of 1956</div>
 
@@ -43,6 +45,7 @@
    <!--left column -->
     <div class="grid_3 alpha omega">
       <h2>Services</h2>
+      <div><a href="../default.aspx">Home</a></div>
       <div><a>Semester Registration</a></div>
       <div><a>Item 2</a></div>
       <div><a>Item 3</a></div>

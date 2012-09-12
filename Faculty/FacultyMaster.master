@@ -5,16 +5,81 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Untitled Page</title>
+    <link href="../style/global.css" rel="stylesheet" type="text/css" />
+    <link href="../style/reset.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body id="smvdu">
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    <div class="container_header">
+<div class="wrapper">
+<!-- header section                -->
+
+
+	<div class="header">
+		
+			<div class="ph_logo">
+				<img class="title_logo" src="../_img/logoSMVDU.jpg" title="SMVDU Logo" alt="SMVDU" />
+				<div class="title_text">Shri Mata Vaishno Devi University</div>
+				<div class="title_sub">Approved Under Section 2(f) and 12(B) of UGC Act of 1956</div>
+
+			</div>
+		
+		<!--
+
+		<div class="ph_right">
+			
+				
+			
+			<div class="search">
+			
+			</div>
+		</div>-->
+	</div>
+
+
+	
+</div>
+<div class="container_16">
+   <!--left column -->
+    <div class="grid_3 alpha omega">
+      <h2>Services</h2>
+      <div><a href="../default.aspx">Home</a></div>
+      <div><a>Minor 1</a></div>
+      <div><a>Item 2</a></div>
+      <div><a>Item 3</a></div>
+      
+    </div>
+    
+	<div class="grid_13 alpha" style="margin-bottom: 30px;"> 
+      
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+      <!--banner front [13 column wide]-->
+    
+      	  
+
+      <!--left column 
+      <div class="left_column">
+
+    fgfg
+
+       </div>-->
+      
+      <!--end of left column --> 
+      
+      <!--main middle content -->
+      
     </div>
+</div>
+</div>
+<div class="footer"> 
+	<span>Copyright &copy; University Website Section | Shri Mata Vaishno Devi University. All Rights Reserved. </span> 
+</div>
+        
+    
     </form>
 </body>
 </html>

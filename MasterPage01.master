@@ -45,9 +45,10 @@
    <!--left column -->
     <div class="grid_3 alpha omega">
       <h2>Sections</h2>
-      <div><a>Student</a></div>
-      <div><a>Faculty</a></div>
-      <div><a>Administration</a></div>
+      <div><a href="default.aspx">Home</a></div>
+      <div><a href="student/SemesterRegistration.aspx">Student</a></div>
+      <div><a href="Faculty/Faculty Services.aspx">Faculty</a></div>
+      <div><a href="Administration/Admin Services.aspx">Administration</a></div>
       
     </div>
     
