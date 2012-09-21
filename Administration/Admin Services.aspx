@@ -3,6 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-hi admin!
+hi admin!<br />
+
+    <asp:Button ID="Button1" runat="server" Text="Logout !" />
+
 </asp:Content>
 

@@ -22,7 +22,7 @@
 .container_16 .grid_14{width:820px}
 .container_16 .grid_15{width:880px}
 .clear{clear:both;	display:block;overflow:hidden;visibility:hidden;width:0;height:0}
-.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+/*.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}*/
 
 
 
@@ -58,12 +58,13 @@ h1 {
 	color: #565245;
 	font-weight: 400
 }
-h2 {
+#smvdu h2 {
 	font-size:12px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #820000;
 	padding-bottom: 3px;
-	font-weight: 700
+	font-weight: bold;
+	
 }
 h3 {
 	font-size:12px;
@@ -129,7 +130,7 @@ code {
 td {
 	padding: 3px;
 }
-;
+
 
 /**********************************
 General classes
@@ -152,17 +153,17 @@ hr.clearer {
 	clear: both;
 	visibility: hidden;
 }
-.transparent {
+/*.transparent {
 	filter: alpha(opacity=60);
 	opacity: 0.6;
-}
+}*/
 /**********************************
 added classes
 ***********************************/
-h2 {
-	border-bottom-width: thin dotted#990000;
+/*h2 {
+	border-bottom-width: 1px thin #990000;
 	padding-bottom: 0px;
-}
+}*/
 
 #smvdu .left_column {
 	padding-right: 10px;
@@ -336,10 +337,10 @@ vertical-align:bottom;
 	font-style:italic;
 	font-weight:700;
 }
-.boldmenu {
+/*.boldmenu {
 	font-style:bold;	
 	font-weight:900;
-}
+}*/
 /*****************************************************/
 /* header 											*/
 /***************************************************/
@@ -445,7 +446,7 @@ a.rss_feed:hover {
 upcoming events
 /************************************/
 .event-item{margin-top: 10px; min-height: 35px;}
-.e-date{float: left; width: 50px; font-family: &quot;Times New Roman&quot;,Times,serif; background-color: #f8f3e5; text-align: center;display:inline}
+.e-date{float: left; width: 50px; font-family: "Times New Roman"; background-color: #f8f3e5; text-align: center;display:inline}
 .e-month{font-size: 17px;}
 .e-day{font-size: 14px;}
 .e-desc{padding-left: 10px; float: right; border-left: 1px solid #cccccc; width: 85px;}
